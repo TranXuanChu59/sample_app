@@ -37,3 +37,8 @@ en:
   contact: "Contact"
   sample_app: "Sample App"
   help: "Help"
+  create_account: "Create my account"
+  hello: "Welcome to the Sample App!"
+  form_contais: "The form contains"
+  confirmation: "Confirmation"
+  error_login: "Login failed"
