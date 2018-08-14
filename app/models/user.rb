@@ -12,7 +12,7 @@ class User < ApplicationRecord
     length: {minimum: Settings.minimum.password}
 
   def self.digest string
-    cost = 
+    cost =
       if ActiveModel::SecurePassword.min_cost
         BCrypt::Engine::MIN_COST
       else

@@ -5,3 +5,5 @@ minimum:
   password: 6
 gravatar:
   size: 80
+paginate:
+  per_page: 10
