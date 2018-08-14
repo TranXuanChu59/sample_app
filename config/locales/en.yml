@@ -42,3 +42,10 @@ en:
   form_contais: "The form contains"
   confirmation: "Confirmation"
   error_login: "Login failed"
+  logout: "Log out"
+  profile: "Your Profile"
+  settings_user: "Settings"
+  account: "Account"
+  sessions:
+    create:
+      error_login: "Invalid email/password combination"
