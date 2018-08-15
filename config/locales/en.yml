@@ -30,4 +30,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  title: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    home:
+      sample_app: "Sample App"
+    about:
+      about: "About"
+    contact:
+      contact: "Contact"
+    help:
+      help: "Help"
+  layouts:
+    application:
