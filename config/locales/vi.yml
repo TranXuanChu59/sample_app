@@ -1,0 +1,11 @@
+vi:
+  title: "Ung dung mau Ruby on Rails"
+  static_pages:
+    home:
+      sample_app: "Trang Chủ"
+    about:
+      about: "Thông Tin"
+    contact:
+      contact: "Liên Hệ"
+    help:
+      help: "Trợ Giúp"
