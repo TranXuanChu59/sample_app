@@ -1,11 +1,8 @@
 vi:
-  title: "Ung dung mau Ruby on Rails"
-  static_pages:
-    home:
-      sample_app: "Trang Chủ"
-    about:
-      about: "Thông Tin"
-    contact:
-      contact: "Liên Hệ"
-    help:
-      help: "Trợ Giúp"
+  title: "Ưng dụng Ruby on Rails"
+  signup: "Đăng Kí"
+  login: "Đăng Nhập"
+  about: "Thông Tin"
+  sample_app: "Trang Chủ"
+  contact: "Liên Hệ"
+  help: "Trợ Giúp"

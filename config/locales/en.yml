@@ -31,14 +31,9 @@
 
 en:
   title: "Ruby on Rails Tutorial Sample App"
-  static_pages:
-    home:
-      sample_app: "Sample App"
-    about:
-      about: "About"
-    contact:
-      contact: "Contact"
-    help:
-      help: "Help"
-  layouts:
-    application:
+  signup: "Sign up now !"
+  login: "Log in"
+  about: "About"
+  contact: "Contact"
+  sample_app: "Sample App"
+  help: "Help"
