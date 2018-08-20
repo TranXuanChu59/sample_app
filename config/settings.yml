@@ -1,0 +1,5 @@
+maximun:
+  name: 50
+  email: 255
+minimun:
+  password: 6
