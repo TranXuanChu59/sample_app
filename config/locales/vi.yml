@@ -6,3 +6,8 @@ vi:
   sample_app: "Trang Chủ"
   contact: "Liên Hệ"
   help: "Trợ Giúp"
+  create_account: "Tạo tài khoản"
+  hello: "Chào mừng đến với ứng dụng Sample!"
+  form_contains: "Biểu mẫu"
+  confirmation: "Xác nhận mật khẩu"
+  error_login: "Đăng nhập thất bại"

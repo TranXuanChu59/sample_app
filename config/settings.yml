@@ -1,5 +1,7 @@
-maximun:
+maximum:
   name: 50
   email: 255
-minimun:
+minimum:
   password: 6
+gravatar:
+  size: 80
