@@ -11,3 +11,10 @@ vi:
   form_contains: "Biểu mẫu"
   confirmation: "Xác nhận mật khẩu"
   error_login: "Đăng nhập thất bại"
+  logout: "Đăng xuất"
+  profile: "Hồ sơ"
+  settings_user: "Cài đặt"
+  account: "Tài khoản"
+  sessions:
+    create:
+      error_login: "Email hoặc mật khẩu không đúng"
