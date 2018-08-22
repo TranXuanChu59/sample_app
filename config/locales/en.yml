@@ -49,3 +49,4 @@ en:
   sessions:
     create:
       error_login: "Invalid email/password combination"
+  remember_me: "Remember me on this computer"

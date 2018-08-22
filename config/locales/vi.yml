@@ -18,3 +18,4 @@ vi:
   sessions:
     create:
       error_login: "Email hoặc mật khẩu không đúng"
+  remember_me: "Lưu tài khoản cho trang web này"
