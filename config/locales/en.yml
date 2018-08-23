@@ -54,7 +54,8 @@ en:
   user_delete_fail: "Delete is failed"
   sessions:
     create:
-      error_login: "Invalid email/password combination" 
+      error_login: "Invalid email/password combination"
+      activated_fail: "Account not activated.Check your email for the activation link"
   users:
     edit:
       edit_user: "Edit_user"
@@ -66,3 +67,11 @@ en:
     user:
       you_sure: "You sure?"
       delete: "Delete"
+  mailers:
+    users:
+      account_activation: "Account activation"
+  activate: "Activate"
+  check_email: "Please check your email to activate your account"
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link"
+  welcome_email: "Welcome to the Sample App! Click on the link below to activate your account:"

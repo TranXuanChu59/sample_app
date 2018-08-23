@@ -23,7 +23,8 @@ vi:
   user_delete_fail: "Xóa không thành công"
   sessions:
     create:
-      error_login: "Email hoặc mật khẩu không đúng"  
+      error_login: "Email hoặc mật khẩu không đúng" 
+      activated_fail: "Tài khoản chưa được kích hoạt.Kiểm tra email của bạn để kích hoạt"
   users:
     edit:
       edit_user: "Sửa thông tin cá nhân"
@@ -35,3 +36,11 @@ vi:
     user:
       you_sure: "Bạn chắc chứ ?"
       delete: "Xóa"
+  mailers:
+    users:
+      account_activation: "Kích hoạt tài khoản"
+  activate: "Kích hoạt"
+  check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn"
+  account_activated: "Đã kích hoạt tài khoản!"
+  invalid_activation_link: "Liên kết kích hoạt không hợp lệ"
+  welcome_email: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
