@@ -54,7 +54,8 @@ en:
   user_delete_fail: "Delete is failed"
   sessions:
     create:
-      error_login: "Invalid email/password combination" 
+      error_login: "Invalid email/password combination"
+      activated_fail: "Account not activated.Check your email for the activation link"
   users:
     edit:
       edit_user: "Edit_user"
@@ -66,3 +67,30 @@ en:
     user:
       you_sure: "You sure?"
       delete: "Delete"
+  mailers:
+    users:
+      account_activation: "Account activation"
+  password_resets:
+    create:
+      email_reset_password: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"     
+    update:
+      password_has_been_reset: "Password has been reset"
+      password_empty: "can't be empty"
+      password_reset_has_expired: "Password reset has expired"
+      password_reset_fail: "Password reset fail"
+    error_email: "The email you entered is incorrect"
+    not_activated: "Email not activated"
+  activate: "Activate"
+  check_email: "Please check your email to activate your account"
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link"
+  welcome_email: "Welcome to the Sample App! Click on the link below to activate your account:"
+  forgot_password: "(Forgot password)"
+  password_reset: "Password reset"
+  mail_content_reset_password: "To reset your password click the link below:"
+  mail_content_reset_password2: "This link will expire in two hours.If you did not request your password to be reset, 
+    please ignore this email and your password will stay as it is."
+  update_password: "Update password"
+  submit: "Submit"
+  password_confirmation: "Confirmation"
