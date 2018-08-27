@@ -7,3 +7,4 @@ gravatar:
   size: 80
 paginate:
   per_page: 10
+email_time_out: 2

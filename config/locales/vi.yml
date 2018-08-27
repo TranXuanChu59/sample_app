@@ -39,8 +39,27 @@ vi:
   mailers:
     users:
       account_activation: "Kích hoạt tài khoản"
+  password_resets:
+    create:
+      email_reset_password: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ email"
+    update:
+      password_has_been_reset: "Mật khẩu đã được đặt lại"
+      password_empty: "Không được để trống"
+      password_reset_has_expired: "Đặt lại mật khẩu đã hết hạn"
+      password_reset_fail: "Đặt lại mật khẩu không thành công"
+    error_email: "email bạn vừa nhập không đúng"
+    not_activated: "Email chưa được kích hoạt"
   activate: "Kích hoạt"
   check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn"
   account_activated: "Đã kích hoạt tài khoản!"
   invalid_activation_link: "Liên kết kích hoạt không hợp lệ"
   welcome_email: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+  forgot_password: "(Quên mật khẩu)"
+  password_reset: "Đặt lại mật khẩu"
+  mail_content_reset_password: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+  mail_content_reset_password2: "Liên kết này sẽ hết hạn sau hai giờ nữa.Nếu bạn không yêu cầu đặt lại mật khẩu, 
+    vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+  update_password: "Cập nhật mật khẩu"
+  submit: "Gửi đi"
+  password_confirmation: "Xác nhận mật khẩu"
