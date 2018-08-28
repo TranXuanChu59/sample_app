@@ -1,42 +1,11 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  title: "Ruby on Rails Tutorial Sample App"
-  signup: "Sign up now !"
+  title: "Ruby on Rails Tutorial Sample App" 
   login: "Log in"
   about: "About"
+  the_home_page: "This is the home page for the Sample Application"
   users_header: "Users"
-  contact: "Contact"
   sample_app: "Sample App"
+  contact: "Contact"  
   help: "Help"
   create_account: "Create my account"
   form_contais: "The form contains"
@@ -49,7 +18,6 @@ en:
   hello: "Welcome to the Sample App!"
   error_login: "Login failed"
   remember_me: "Remember me on this computer"
-  please_log_in: "Please log in"
   user_deleted: "User deleted"
   user_delete_fail: "Delete is failed"
   sessions:
@@ -81,6 +49,18 @@ en:
       password_reset_fail: "Password reset fail"
     error_email: "The email you entered is incorrect"
     not_activated: "Email not activated"
+  application:
+    log_in: "Please log in"
+  microposts:
+    create:
+      micropost_created: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      micropost_delete_fail: "Micropost delete fail"
+  picture_error: "should be less than 5MB"
+  view_my_profile: "view my profile"
+  post: "Post"
+  compose_micropost: "Compose new micropost..."
   activate: "Activate"
   check_email: "Please check your email to activate your account"
   account_activated: "Account activated!"
@@ -94,3 +74,10 @@ en:
   update_password: "Update password"
   submit: "Submit"
   password_confirmation: "Confirmation"
+  maximum_size_picture: "Maximum file size is 5MB. Please choose a smaller file."
+  static_pages:
+    home:
+      micropost_feed: "Micropost Feed"
+      signup: "Sign up now !"
+  posted: "Posted"
+  ago: "ago."
