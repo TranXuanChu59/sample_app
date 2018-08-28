@@ -6,14 +6,14 @@
       <%= gravatar_for @user %>
       <h1><%= @user.name %></h1>
       <span><%= link_to t("view_my_profile"), @user %></span>
-      <span><b><%= Microposts:</b> <%= @user.microposts.count %></span>
+      <span><b><%= t "micropost" %></b> <%= @user.microposts.count %></span>
     </section>
     <section class="stats">
-      <%= render 'shared/stats' %>
+      <%= render "shared/stats" %>
       <% if @users.any? %>
         <div class="user_avatars">
           <% @users.each do |user| %>
-            <%= link_to gravatar_for(user, size: 30), user %>
+            <%= link_to gravatar_for(user, size: Settings.gravatar.micropost.size), user %>
           <% end %>
         </div>
       <% end %>

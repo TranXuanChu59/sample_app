@@ -35,6 +35,10 @@ vi:
     user:
       you_sure: "Bạn chắc chứ ?"
       delete: "Xóa"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
   mailers:
     users:
       account_activation: "Kích hoạt tài khoản"
@@ -81,3 +85,6 @@ vi:
       signup: "Đăng Kí"
   posted: "Đã đăng"
   ago: "trước đây."
+  following: "đang theo dõi"
+  followers: "người theo dõi"
+  micropost: "Bài đăng"

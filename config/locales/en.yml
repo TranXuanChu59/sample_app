@@ -35,6 +35,10 @@ en:
     user:
       you_sure: "You sure?"
       delete: "Delete"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
   mailers:
     users:
       account_activation: "Account activation"
@@ -81,3 +85,6 @@ en:
       signup: "Sign up now !"
   posted: "Posted"
   ago: "ago."
+  following: "following"
+  followers: "followers"
+  micropost: "Microposts"
