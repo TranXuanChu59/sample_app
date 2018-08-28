@@ -1,10 +1,16 @@
 maximum:
   name: 50
   email: 255
+  micropost: 140
 minimum:
   password: 6
 gravatar:
   size: 80
+  micropost:
+    size: 50
 paginate:
   per_page: 10
 email_time_out: 2
+picture:
+  size: 5
+  resize: 200

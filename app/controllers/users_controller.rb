@@ -9,7 +9,10 @@ class UsersController < ApplicationController
       per_page: Settings.paginate.per_page
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.scope_sort.paginate page: params[:page],
+      per_page: Settings.paginate.per_page
+  end
 
   def new
     @user = User.new
@@ -52,13 +55,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t "please_log_in"
-    redirect_to login_url
   end
 
   def correct_user
